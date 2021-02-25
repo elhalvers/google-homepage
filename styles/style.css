@@ -1,0 +1,70 @@
+/*   Elements   */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+ 
+html { font-size: 62.5%; } // This defines 1rem (10px)
+
+body { box-sizing: border-box; }
+
+body, input, button {
+  font-family:"arial",sans-serif;
+  font-size: 1.4rem;
+  color: #222;
+}
+
+/*   Classes   */
+ .logo-box {
+    display: flex;
+   justify-content: center;
+   margin: 6rem 0 3rem 0;
+   
+
+ }
+
+ .img-logo {
+   height: 9.2rem;
+   width:auto;
+ }
+
+ .search-box {
+  margin: 0 auto;
+  display: flex;
+  width: auto;
+  max-width: 58.4rem;
+  justify-content: center;
+  border: .1rem solid #dfe1e5;
+  border-radius: 5.35rem;
+  height: 4.3rem;
+  
+ }
+
+ .search-box:hover {
+  background-color: #fff;
+  box-shadow: 0 .1rem .6rem rgb(32 33 36 / 28%);
+  border-color: rgba(223,225,229,0);
+ }
+
+ .input-search {
+  width: 75%;
+  height: 34px;
+  font-size: 16px;
+  border: 0;
+  font-size: 1.6rem;
+  height: 34px;
+  outline: none;
+  padding-top: 5px;
+ }
+
+ .input-search:focus { outline: none; }
+
+ /* .icon {
+  display: inline-block;
+  font-size: 3rem;
+  color: #222;
+ } */
